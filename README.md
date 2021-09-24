@@ -50,4 +50,13 @@ According to the results above, the t-value for lot 1 equals zero, which means t
 MechaCars would need to be the most concerned with the variance located in lot 3. 
 <br></br>
 
-## **Study Design: MechaCar vs Competition:**
+## **Study Design: MechaCar vs Competition**
+
+MechaCars can also use statistical analysis in R to comapare their performance to their competitors. The following would need to be collected and organized in order to reach a conclusion: 
+
+    1. The metrics of mpg(highway vs. city), user rating, safety rating, and frequency of maintenence. 
+    2. A null hypothesis that there is no difference between MechaCars and their competetors. An alternative hypothesis that there is a difference, whether it be negative or positive. 
+    3. Two types of statistical tests-- Multiple Linear Regression and ANOVA tests. This is because the test contains multiple variables. 
+    4. The data of the metrics of both MechaCars and their competetors. 
+
+Once this data cas been collected and analyzed in R, MechaCars can make adjustments to improve their successes against their comeptetors. 
