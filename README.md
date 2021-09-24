@@ -19,6 +19,26 @@ The data provides the following assumptions:
 2. The slope of the linear model is not zero, as we have rejected the null hypothesis on several factors. That can also be observed the P-value, which is 5.35e-11 and below the 0.05 statistical significance standard. 
     
 3. This model predicts the MechaCar prototypes effectively because of the observed R-squared value, which is observed at 0.71. This means that there is a 71% confidence that the data is effective in determining conclusions. 
+<br></br>
+
+## **Summary Statistics on Suspension Coils:**
+<br>
+
+Total summary of PSI examination: 
+<br>
+
+![Resources/total_summary.png](Resources/total_summary.png)
+<br>
+
+Lot summary of PSI examination: 
+<br>
+
+![Resources/lot_summary.png](Resources/lot_summary.png)
+<br></br>
+
+When examining the total summary for PSI, MechaCars meets the expectations of being below 100 PSI on average. However, when evaluating the cars by lot number, lot 3 massively exceeds the PSI requirements by more than 70, which indicates this is a variance skewing the overall average. 
+MechaCars would need to do more research into what is causing the high amount of variance in the cars for lot 3, as it could be a manufacturing concern. 
+
 
 
 
