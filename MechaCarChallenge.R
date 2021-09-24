@@ -31,6 +31,6 @@ t.test(suspension_coil$PSI, mu=1500)
 #for each manufacturing lot is statistically different from the population 
 #mean of 1,500 pounds per square inch
 
-t.test(subset(suspension_coil$PSI, suspension_coil$Manufacturing_Lot == "Lot1", mu=1500))
-t.test(subset(suspension_coil$PSI, suspension_coil$Manufacturing_Lot == "Lot2", mu=1500))
-t.test(subset(suspension_coil$PSI, suspension_coil$Manufacturing_Lot == "Lot3", mu=1500))
+t.test(subset(suspension_coil$PSI, suspension_coil$Manufacturing_Lot == "Lot1"), mu=1500)
+t.test(subset(suspension_coil$PSI, suspension_coil$Manufacturing_Lot == "Lot2"), mu=1500)
+t.test(subset(suspension_coil$PSI, suspension_coil$Manufacturing_Lot == "Lot3"), mu=1500)
