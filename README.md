@@ -57,7 +57,7 @@ MechaCars can also use statistical analysis in R to compare their performance to
     1. The metrics of mpg(highway vs. city), user rating, safety rating, and frequency of maintenance. 
     2. A null hypothesis that there is no difference between MechaCars and their competitors. An alternative hypothesis that there is a difference, whether it be negative or positive. 
     3. Two types of statistical tests-- Multiple Linear Regression and ANOVA tests. This is because the test contains multiple variables. 
-    4. The data of the metrics of both MechaCars and their competitors. 
+    4. The data of the metrics of both MechaCars and their competitors to determine the mpg and frequency of maintenance. Additionally, data from websites such as consumerreoptrs.org and cars.com to see their ratings in safety and overall satisfaction. 
 
 Once this data has been collected and analyzed in R, MechaCars can make adjustments to improve their successes against their competitors.
 
